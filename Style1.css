@@ -1,27 +1,33 @@
 *{
   margin:0;
   padding:0;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  padding-bottom: 300px;
 }
 .navbar{
+  padding-left: 0;
+  margin-top:0;
   margin: 0;
   height:60px;
   width:100%;
   display:flex;
-
-}
+  position:fixed;
+  z-index:300;
+}  
 .nav1{
   background-color:white;
   height: 60px;
-  width:50%;
+  width:40%;
   display:flex;
   align-items: center;
-  
 }
+
 .nav2{
   background-color: white;
   height: 60px;
-  width:50%;
+  width:60%;
   display: flex;
   display: flex;
   align-items: center;
@@ -52,40 +58,17 @@
   font-weight: 600;
   font-size: 20px;
 }
-.video{
-  background-color:white;
-  height: 660px;
-  width: 650px;
-  font-size: 100px;
-  margin-top: 30px;
-  
-}
 
-.t{
-   font-size: 30%;
-  height: 70px;
-  width:128px;
-  border-radius: 23px;
-  border:2px solid black;
-  text-align: center;
+section{
+  height:600px;
+  width:100%;
+  display :flex;
+  justify-content: center;
+  align-items: center;
 }
-.v2{
-  margin-top: 50px;
-  font-size: 50px;
-  text-align: center;
-
-}
-.WORK{
-font-size: 300px;
-display: flex;
-  background-color: white;
-  margin-left: 5%;
-  margin-right: 30%;
-  
-}
-.button1{
-  margin-left: 67px;
-  
+h1{
+  font-size: 90px;
+  z-index: 10;
 }
 .v1{
   font-size: 100px;
@@ -98,24 +81,34 @@ display: flex;
 }
 .First_div,
 .Second_div{
- margin-left: 63px;
   display: inline-block;
 }
 .Text{
-  padding-right:50px;
-  padding-left:50px;
+  padding-right:100px;
+  padding-left:100px;
+  padding-bottom:20px;
   width:350px;
   font-size:20px;
   line-height: 25px;
 }
-.total{
-  display:flex;
+.s_text{
+  padding-top:0;
+  padding-right:100px;
+  padding-left:100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  text-decoration: underline;
 }
-.b3{
+.video{
+  background-color: black;
+  height:650px;
+  width:660px;
+  padding:0;
+  position:relative;
+  z-index:100; 
   display: flex;
-  align-items: end;
-  background-color: white;
-  align-content: flex-end;
-  height: 280px;
-  width:50%;
+align-items: right;
+}
+.Text_1{
+  padding-top:20px;
 }
